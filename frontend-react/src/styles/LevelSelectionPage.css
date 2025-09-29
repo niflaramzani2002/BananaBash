@@ -1,0 +1,90 @@
+/* Full page background */
+.level-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../images/Monkey.jpg"); /* Background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FDF5BA; /* Light yellow background */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Main box */
+.level-box {
+  background-color: rgba(255, 243, 184, 0.95); /* Light yellow box */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  width: 450px;
+  text-align: center;
+  border: 2px solid #3c3c1d; /* Dark border */
+  position: relative;
+}
+
+/* Close button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #4D3B1B; /* Dark brown */
+}
+
+.close-button:hover {
+  color: #4D3B1B; /* Slightly darker on hover */
+  background: none;
+}
+
+
+
+/* Title */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4D3B1B; /* Dark brown */
+  margin-bottom: 20px;
+}
+
+/* Selection container */
+.selection-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Monkey images */
+.monkey-image {
+  width: 100px;
+}
+
+/* Level buttons */
+.level-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Level button styling */
+.level-button {
+  background-color: #4D3B1B; /* Dark brown */
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.level-button:hover {
+  background-color: #3A2A13; /* Slightly darker on hover */
+}

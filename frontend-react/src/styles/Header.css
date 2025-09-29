@@ -1,0 +1,76 @@
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: flex-end; /* Align everything to the right */
+    align-items: center;
+    padding: 10px 20px;
+    color: #4D3B1B; /* Dark brown color for text */
+    font-family: Arial, sans-serif;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Light shadow for header */
+  }
+  
+  /* Profile Icon */
+  .icon {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  /* Profile Icon Image */
+  .icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Make the profile icon round */
+  }
+  
+  /* Profile Dropdown */
+  .profile-dropdown {
+    position: absolute;
+    top: 60px; /* Position below the header */
+    right: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Dropdown width */
+  }
+  
+  /* Profile Info */
+  .profile-dropdown .profile-info {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #4D3B1B; /* Dark brown */
+    text-align: center;
+  }
+  
+  /* Buttons in Profile Dropdown */
+  .profile-dropdown button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4D3B1B; /* Dark brown */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  
+  .profile-dropdown button:hover {
+    background-color: #3A2A13; /* Slightly darker brown on hover */
+  }
+  
+  /* Adjustments for the Header */
+  .right-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .username {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #4D3B1B; /* Dark brown */
+  }
+  

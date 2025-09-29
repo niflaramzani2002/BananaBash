@@ -1,0 +1,122 @@
+.play-page {
+  background-color: #FDF5BA; /* Light yellow background */
+  text-align: center;
+  padding: 0; /* Remove extra padding */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  position: absolute; /* Ensure it covers the whole page */
+  top: 0;
+  left: 0;
+  background-image: url("../images/Monkey.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.contentP {
+  position: relative;
+  align-items: center;
+  background-color: rgba(252, 239, 161, 0.8); /* Transparent background */
+  padding: 40px;
+  border-radius: 12px;
+  border: 2px solid #3c3c1d; /* Updated border color */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Cross (X) button styling */
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4D3B1B; /* Dark brown */
+  font-size: 24px;
+}
+
+.close-icon:hover {
+  color: #3A2A13; /* Slightly darker on hover */
+}
+
+.game-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4D3B1B; /* Dark brown */
+}
+
+.game-description {
+  font-size: 1.2rem;
+  color: #5A4B2E;
+  margin: 15px 0;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.play-button, .scoreboard-button, .close-button {
+  background-color: #4D3B1B; /* Dark brown */
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.play-button:hover, .scoreboard-button:hover, .close-button:hover {
+  background-color: #3A2A13; /* Slightly darker on hover */
+}
+
+.monkey-image {
+  width: 180px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+
+.settings-button {
+  background-color: #4D3B1B; /* Golden yellow */
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.settings-button:hover {
+  background-color: #3A2A13; /* Slightly darker shade */
+}
+
+
+.settings-button {
+  background-color: #4D3B1B; /* Dark brown */
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.settings-button:hover {
+  background-color: #3A2A13; /* Slightly darker shade */
+}

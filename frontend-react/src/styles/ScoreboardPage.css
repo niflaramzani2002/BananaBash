@@ -1,0 +1,106 @@
+/* Full-page layout */
+.scoreboard-page {
+  background-color: #FDF5BA;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ✅ Center content horizontally */
+  font-family: 'Arial', sans-serif;
+  background-image: url("../images/Monkey.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 20px; /* Better spacing for smaller screens */
+  box-sizing: border-box;
+}
+
+/* Main container */
+.scoreboard-container {
+  background-color: rgba(252, 239, 161, 0.95);
+  padding: 30px;
+  border-radius: 16px;
+  border: 3px solid #3c3c1d;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  overflow-x: auto;
+}
+
+/* Title */
+h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #4D3B1B;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+/* Table */
+.scoreboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.scoreboard-table th,
+.scoreboard-table td {
+  border: 2px solid #4D3B1B;
+  padding: 10px;
+  text-align: center;
+  color: #5A4B2E;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.scoreboard-table th {
+  background-color: #FFE082;
+  font-size: 1.05rem;
+}
+
+.scoreboard-table tr:nth-child(even) {
+  background-color: #FFF3C7;
+}
+
+.scoreboard-table tr:nth-child(odd) {
+  background-color: #FFEFAD;
+}
+
+.scoreboard-table tr:hover {
+  background-color: #FFEB80;
+  cursor: pointer;
+}
+
+/* Level section header row */
+.level-header td {
+  background-color: #FFD34F;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #3A2A13;
+  text-align: center;
+}
+
+/* Highlight current user */
+.highlighted-row {
+  background-color: #fff06c !important;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Close button */
+.close-button {
+  position: absolute;
+  top: 18px;
+  right: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4D3B1B;
+  font-size: 28px;
+  transition: color 0.2s ease;
+}
+
+.close-button:hover {
+  color: #2e220c;
+}
